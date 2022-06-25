@@ -1,0 +1,43 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+* {letter-spacing: -0.2px;}
+body {background-color: #f1f2f3;}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9em;
+    background-color: #252526;
+    padding: 7px 5px;
+}
+header span {color: #fff;}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: -1.2px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: auto;
+}
+
+.item img {width: 100%;}
