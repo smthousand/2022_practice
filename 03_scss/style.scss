@@ -1,0 +1,11 @@
+@import "bourbon/bourbon";
+
+header {
+    .header__top {
+        background-color: #e5e5e5;
+        @include padding(1rem 1rem);
+        span {
+            color: #000;
+        }
+    }
+}
