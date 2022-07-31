@@ -36,7 +36,7 @@ img {
   border-bottom: 1px solid #000;
 }
 .pricing-table:last-child {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 .paner-title {
@@ -134,11 +134,10 @@ img {
 }
 
 @media (max-width: 1200px) and (min-width: 844px) {
-    .pricing-header {
-      font-size: 1.3em;
-    }
+  .pricing-header {
+    font-size: 1.3em;
   }
-  
+}
 
 @media (min-width: 845px) {
   .panel {
@@ -150,7 +149,7 @@ img {
     border-right: 1px solid #000;
   }
 
-  .pricing-price:nth-child(3){
+  .pricing-price:nth-child(3) {
     border-right: 0;
   }
 }
