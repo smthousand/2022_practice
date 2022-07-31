@@ -35,6 +35,9 @@ img {
   flex-direction: column;
   border-bottom: 1px solid #000;
 }
+.pricing-table:last-child {
+    border-bottom: 0;
+}
 
 .paner-title {
   width: 100%;
